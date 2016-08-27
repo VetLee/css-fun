@@ -42,6 +42,42 @@
       .part4
         +p($darkblue, 107, 163, 262, 180, 0)
         +t(0,22,0)
+
+    .window
+      +p($orange, 60, 150, -43, 305, 0)
+      +t(0,20,0)
+      .part1
+        +p($lightblue, 8, 150, 3, -8, 0)
+        +t(0,-40,0)
+        border-left: 2px solid $white
+      .part21
+        +p($darkblue, 8, 150, 3, 60, 0)
+        +t(0,-40,0)
+      .part22
+        +p($darkblue, 20, 150, 7, 60, 0)
+        +t(0,2,0)
+      .part23
+        +p($darkblue, 20, 150, 6, -28, 0)
+        +t(0,2,0)
+
+      &.second
+        top: -16px
+        left: 380px
+
+    .windowsill
+      z-index: 40
+      +p($white, 22, 80, 73, 310, 0)
+      +t(0, 40, -70)
+      &.second
+        height: 85px
+        top: 101px
+        left: 395px
+      .part1
+        +p($purple, 15, 80, 9, -15, 0)
+        +t(0, -50, 0)
+        &.second
+          height: 85px
+
     .floor
       z-index: 5
       +p($lightblue, 300, 190, 370, 80, 0)
