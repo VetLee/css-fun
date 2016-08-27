@@ -18,11 +18,13 @@
       .part1
         +p($white, 325, 190, 172, -22, 0)
         +t(0, 35, -70)
+        z-index: 65
       .part2
-        +p($purple, 325, 30, 299, 67, 0)
+        +p($purple, 325, 25, 299, 67, 0)
         +t(0,-35,0)
+        z-index: 60
       .part3
-        +p($orange, 88, 163, 258, 287, 0)
+        +p($orange, 88, 163, 253, 287, 0)
         +t(0,-35,0)
         border-right: 5px solid $white
         .part31
@@ -37,3 +39,10 @@
             +p($purple, 65, 77, 3, 3, 0)
           .part322
             +p($darkblue, 11, 14, 35, 10, 50)
+      .part4
+        +p($darkblue, 107, 163, 262, 180, 0)
+        +t(0,22,0)
+    .floor
+      z-index: 5
+      +p($lightblue, 300, 190, 370, 80, 0)
+      +t(0, 35, -70)

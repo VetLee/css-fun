@@ -5,9 +5,7 @@ $orange: #ffc47c
 $red: #eb6562
 $purple: #8a8fc6
 $white: #fdfdff
-
-//units
-
+$debug: #0f0
 
 //properties
 =p($bg, $width, $height, $top, $left, $r)
@@ -21,3 +19,8 @@ $white: #fdfdff
 //transform
 =t($x, $y, $r)
   transform: rotate($r + deg) skewX($x + deg) skewY($y + deg)
+
+//select element
+=d()
+  background-color: $debug
+  z-index: 999
