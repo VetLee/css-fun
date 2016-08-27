@@ -14,6 +14,27 @@
     border-radius: 50%
     overflow: hidden
 
+    .shelf
+      .part1
+        +p($white, 180, 100, 60, -75, 0)
+        +t(0, 35, -70)
+      .part2
+        +p($lightblue, 180, 20, 127, -28.5, 0)
+        +t(0,-35,0)
+      .part3
+        +p($lightblue, 14, 80, 13, 85, 0)
+        +t(0,-35,0)
+        border-right: $orange solid 3px
+      .part4
+        +p($darkblue, 60, 50, 34, 25, 0)
+        +t(0,25,0)
+        z-index: 55
+      .part5
+        +p($purple, 60, 50, 56, 25, 0)
+        +t(0,-15,0)
+
+
+
     .table
       .part1
         +p($white, 325, 190, 172, -22, 0)
@@ -80,5 +101,5 @@
 
     .floor
       z-index: 5
-      +p($lightblue, 300, 190, 370, 80, 0)
+      +p($purple, 300, 190, 370, 80, 0)
       +t(0, 35, -70)
