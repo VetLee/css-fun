@@ -1,0 +1,39 @@
+.room
+  background-color: $lightblue
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+
+  .content
+    background-color: $darkblue
+    $d: 485px
+    width: $d
+    height: $d
+    border-radius: 50%
+    overflow: hidden
+
+    .table
+      .part1
+        +p($white, 325, 190, 172, -22, 0)
+        +t(0, 35, -70)
+      .part2
+        +p($purple, 325, 30, 299, 67, 0)
+        +t(0,-35,0)
+      .part3
+        +p($orange, 88, 163, 258, 287, 0)
+        +t(0,-35,0)
+        border-right: 5px solid $white
+        .part31
+          +p($darkblue, 68, 40, 20, 10, 0)
+          .part311
+            +p($purple, 65, 37, 3, 3, 0)
+          .part312
+            +p($darkblue, 11, 14, 15, 30, 50)
+        .part32
+          +p($darkblue, 68, 80, 70, 10, 0)
+          .part321
+            +p($purple, 65, 77, 3, 3, 0)
+          .part322
+            +p($darkblue, 11, 14, 35, 10, 50)

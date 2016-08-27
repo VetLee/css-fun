@@ -1,6 +1,23 @@
+//colors
 $lightblue: #b9d1f3
 $darkblue: #333878
 $orange: #ffc47c
 $red: #eb6562
 $purple: #8a8fc6
-$white: fdfdff
+$white: #fdfdff
+
+//units
+
+
+//properties
+=p($bg, $width, $height, $top, $left, $r)
+  background-color: $bg
+  width: $width+px
+  height: $height+px
+  top: $top+px
+  left: $left+px
+  border-radius: $r+%
+
+//transform
+=t($x, $y, $r)
+  transform: rotate($r + deg) skewX($x + deg) skewY($y + deg)

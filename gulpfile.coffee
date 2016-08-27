@@ -19,7 +19,7 @@ path =
     img: 'build/img/'
     fonts: 'build/fonts/'
   src:
-    html: 'src/*.html'
+    html: 'src/index.html'
     slim: 'src/*.slim'
     js: 'src/js/main.js'
     style: 'src/styles/main.sass'
@@ -29,7 +29,7 @@ path =
     html: 'src/**/*.html'
     slim: 'src/*.slim'
     js: 'src/js/**/*.js'
-    style: 'src/styles/**/*.sass'
+    style: 'src/styles/**/**/*.sass'
     img: 'src/img/**/*.*'
     fonts: 'src/fonts/**/*.*'
 
